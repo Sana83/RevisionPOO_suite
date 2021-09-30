@@ -11,6 +11,7 @@ namespace RevisionPOO.Exception
         public Soins2021Exception(string message) : base(message)
         {
             Console.WriteLine();
+            Console.WriteLine();
         }
     }
 }
