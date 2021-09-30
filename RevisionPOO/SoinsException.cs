@@ -4,13 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RevisionPOO.Exception
+namespace RevisionPOO
 {
-    class SoinException
+    class SoinsException
     {
         public Soins2021Exception(string message) : base(message)
         {
-            
+            return Console.WriteLine();
         }
     }
 }
